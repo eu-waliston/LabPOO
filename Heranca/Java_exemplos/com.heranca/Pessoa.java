@@ -5,7 +5,7 @@ public class Pessoa {
     protected int idade;
 
     //conmstrutor da classe
-    public Pessoa(String nome, init idade) {
+    public Pessoa(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
     }
@@ -14,11 +14,4 @@ public class Pessoa {
     public void apresentar(){
         System.out.println("Olá, meu nome é "+ nome + " e eu tenho " + idade + "anos :)");
     }
-}
-
-//Definição da subclasse que herda da Pessoa
-public class Estudante extends Pessoa {
-    //Atributo adicional da subclasse Estudante
-    private String instituicao;
-    
 }
