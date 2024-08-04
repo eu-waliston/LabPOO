@@ -1,3 +1,4 @@
+package Exemplos;
 
 import java.io.FileReader;
 import netscape.javascript.JSObject;
